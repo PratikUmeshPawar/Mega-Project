@@ -1,0 +1,30 @@
+
+
+
+                                                         "Create your own cheetah optimizer"
+
+
+In this example, we select the parts of the CO that can be changed and replace them with simple dummy functions.
+These small changes demonstrate the algorithm's performance in a real-world problem.
+
+Parts that can be replaced by your mock functions:
+
+Line 111: updated the last part of the alpha parameter (in general, different types of functions can be used for alpha parameter)
+
+Line 115: r_Check can be changed to suit your needs and the nature of the problem.
+
+Line 116: Create a new Eq
+
+Line 117: beta can have various values, as shown in lines 118 and 122.
+
+Line 132: The search strategy can be replaced by a variety of functions (a typical example is made)
+
+Line 134: The attack strategy can be updated with a variety of functions (an example is made in line 135). The attack strategy in line 135 is not dependent to beta. 
+
+Sit and Wait strategy has been updated in lines 137 to 141 based on the type of problem.
+
+Uncomment the comment sections and test the algorithm's behavior in different modes.
+
+Be patient, the CO can pass through local optima
+
+Also, put your proposed functions (any functions) to the test.
